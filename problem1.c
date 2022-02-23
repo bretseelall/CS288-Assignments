@@ -40,7 +40,7 @@ void print_a_node(struct node *pnode) {
 }
 
 struct node *initialize(char **argv){ // starts the puzzle
-	int i,j,k,index, tile; // think you can remove i's declaration here
+	int i,j,k,index, tile;
 	struct node *pnode;
 
 	pnode=(struct node *) malloc(sizeof(struct node));
