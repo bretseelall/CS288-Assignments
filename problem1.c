@@ -103,7 +103,7 @@ void merge_to_open() {
 		else if(open == NULL)
 		{
 			head = succ_nodes[d];
-			head->next = NULL;
+			head->next = NULL;		// If open list is empty, add 1st node and make it head of list
 			open = head;
 			
 		}
